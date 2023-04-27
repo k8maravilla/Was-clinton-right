@@ -1,0 +1,14 @@
+'''This text file only contains the names of the president, the time served, and what party they are"
+
+--------NAME--------|---PARTY----|----START_TIME----|----END_TIME----|              
+Dwight_D_Eisenhower | REPUBLICAN | January 20, 1953 |January 20, 1961|
+John_F_Kennedy      | DEMOCRATIC | January 20, 1961 |November 22, 1963|
+Lyndon_B_Johnson    | DEMOCRATIC | November 22, 1963|January 20, 1969|
+Richard_nixon       | REPUBLICAN | January 20, 1969 |August 9, 1974  |
+Gerald_Ford         | REPUBLICAN | August 9, 1974   |January 20, 1977|
+Jimmy_Carter        | DEMOCRATIC | January 20, 1977 |January 20, 1981|
+Ronald_Reagan       | REPUBLICAN | January 20, 1981 |January 20, 1989|
+George H. W Bush    | REPUBLICAN | January 20, 1989 |January 20, 1993|
+Bill clinton        | DEMOCRATIC | January 20, 1993 |January 20, 2001|
+George Bush         | REPUBLICAN | January 20, 2001 |January 20, 2009|
+Barack Obama        | DEMOCRATIC | January 20, 2009 |January 20, 2017|
