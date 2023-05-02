@@ -10,23 +10,32 @@ import csv
 
 def read_president_file(input_month, input_year):
     """supposed to return the party that coordinates with the month and the year"""
-    presidents_list = []
+
     with open("presidents.txt", "r") as file:
         reader = csv.reader(file, delimiter= ",")
         for row in reader:
-            if row[2] == input_year and row[1] == input_month:
-                print(row[0])
-        #    my_tuple = tuple(row)
-        #    presidents_list.append(my_tuple)
-#
-        #for party, month, year in presidents_list:
-        #    if month == input_month and year == input_year:
-        #        print(party)
+            if row[2] == str(input_year) and row[1] == str(input_month):
+               return row[0]
                   
-
+def read_ugly_file():
+    """reads BLS_private file and adds them to a counter"""
+    demo_count = 0
+    repub_count = 0
+    first_line = 0
+    with open("BLS_private.csv", "r") as file:
+        reader = csv.reader(file, delimiter=",")
+        for row in reader:
+            if first_line == 0:
+                first_line += 1
+                continue
+            for i in range(1,13):
+                print(row[0], f"{i}", row[i])
+                answer = read_president_file(i, row[0])
+                print(answer)
 
 def main():
     """This function will run the whole program"""
-    read_president_file("11", "1998")
+    #read_president_file("11", "1998")
+    read_ugly_file()
 #if __name__ = '__main__':
 main()
