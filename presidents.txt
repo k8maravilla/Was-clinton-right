@@ -1,14 +1,14 @@
 '''This text file only contains the names of the president, the time served, and what party they are"
 
 ---PARTY----|----START_TIME----|----END_TIME----|              
- REPUBLICAN | January 20, 1953 |January 20, 1961|
- DEMOCRATIC | January 20, 1961 |November 22, 1963|
- DEMOCRATIC | November 22, 1963|January 20, 1969|
- REPUBLICAN | January 20, 1969 |August 9, 1974  |
- REPUBLICAN | August 9, 1974   |January 20, 1977|
- DEMOCRATIC | January 20, 1977 |January 20, 1981|
- REPUBLICAN | January 20, 1981 |January 20, 1989|
- REPUBLICAN | January 20, 1989 |January 20, 1993|
- DEMOCRATIC | January 20, 1993 |January 20, 2001|
- REPUBLICAN | January 20, 2001 |January 20, 2009|
- DEMOCRATIC | January 20, 2009 |September 6, 2012|
+REPUBLICAN,January 1953,January 1961,
+DEMOCRATIC,January 1961,November 1963,
+DEMOCRATIC,November 1963,January 1969,
+REPUBLICAN,January 1969,August 1974,
+REPUBLICAN,August 1974,January 1977
+DEMOCRATIC,January 1977,January 1981
+REPUBLICAN,January 1981,January 1989
+REPUBLICAN,January 1989,January 1993
+DEMOCRATIC,January 1993,January 2001
+REPUBLICAN,January 2001,January 2009
+DEMOCRATIC,January 2009,September 2012
