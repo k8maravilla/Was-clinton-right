@@ -29,9 +29,14 @@ def read_ugly_file():
                 first_line += 1
                 continue
             for i in range(1,13):
-                print(row[0], f"{i}", row[i])
+                #print(row[0], f"{i}", row[i])
                 answer = read_president_file(i, row[0])
-                print(answer)
+                if answer == "democrat":
+                    demo_count += int(row[2])
+                else:
+                    repub_count += int(row[2])
+        print(f"democrat_privatejobs:{demo_count}")
+        print(f"republican_privatejobs:{repub_count}")
 
 def main():
     """This function will run the whole program"""
