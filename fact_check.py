@@ -9,16 +9,24 @@ import csv
 #            year_cnt += 1
 
 def read_president_file(input_month, input_year):
+    """supposed to return the party that coordinates with the month and the year"""
+    presidents_list = []
     with open("presidents.txt", "r") as file:
         reader = csv.reader(file, delimiter= ",")
-        for party, month, year in reader:
-            if month == input_month and year == input_year:
-                print(party)
+        for row in reader:
+            if row[2] == input_year and row[1] == input_month:
+                print(row[0])
+        #    my_tuple = tuple(row)
+        #    presidents_list.append(my_tuple)
+#
+        #for party, month, year in presidents_list:
+        #    if month == input_month and year == input_year:
+        #        print(party)
                   
 
 
 def main():
     """This function will run the whole program"""
-    read_president_file("1", "1961")
+    read_president_file("11", "1998")
 #if __name__ = '__main__':
 main()
