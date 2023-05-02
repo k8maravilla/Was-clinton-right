@@ -1,3 +1,16 @@
+DEMOCRATIC,January 1961,November 1963,
+DEMOCRATIC,November 1963,January 1969,
+REPUBLICAN,February 1969,August 1974,
+REPUBLICAN,August 1974,January 1977
+DEMOCRATIC,February 1977,January 1981
+REPUBLICAN,February 1981,January 1989
+REPUBLICAN,January 1989,January 1993
+DEMOCRATIC,February 1993,January 2001
+REPUBLICAN,February 2001,January 2009
+DEMOCRATIC,February 2009,September 2012
+
+
+ACTUAL DATA USAGE
 democrat, 1, 1961
 democrat, 2, 1961
 democrat, 3, 1961
