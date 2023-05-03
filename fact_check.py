@@ -42,5 +42,6 @@ def main():
     """This function will run the whole program"""
     #read_president_file("11", "1998")
     read_ugly_file()
-#if __name__ = '__main__':
-main()
+
+if __name__ = '__main__':
+    main()
